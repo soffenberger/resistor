@@ -3,8 +3,29 @@ App to tell resistor/ gate value/model
 
 
 1) Clone repo
-2) Install pip
-3) Run the install_dependencies.py
+2) Install dependencie:
+	opencv
+		numpy
+		scipy
+	sqlite
+	sqlalchemy
+	tensorflow
+	matplotlib
+	
+
+main.py
+	Actual learning and algorithm
+
+create_sql_engine
+	Creates the sql database, will need to update schema
+
+img.db
+	Database of img objects will be used to train algorithm
+
+resistor_class
+	A.K.A image class stores the data needed in the image for recognition and analyses of devices
+
+Created By: Spener Offenberger soffenbe@asu.edu and Frank Tsang
 
 
 #####################################
